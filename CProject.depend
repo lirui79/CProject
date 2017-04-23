@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1492915416 source:d:\project\cproject\test_class\circle.c
+	"Circle.h"
+
+1492915442 d:\project\cproject\test_class\circle.h
+	"Point.h"
+
+1492915454 d:\project\cproject\test_class\point.h
+	"Shape.h"
+
+1492915465 d:\project\cproject\test_class\shape.h
+	"IMethod.h"
+
+1492915474 d:\project\cproject\test_class\imethod.h
+	"class.h"
+
+1353304238 d:\project\cproject\test_class\class.h
+	<stdio.h>
+
+1492915486 source:d:\project\cproject\test_class\imethod.c
+	"IMethod.h"
+
+1492915506 source:d:\project\cproject\test_class\main.c
+	"vector.h"
+	<stdio.h>
+	"Circle.h"
+	"vector.h"
+
+1353572548 d:\project\cproject\test_class\vector.h
+	"class.h"
+
+1492915517 source:d:\project\cproject\test_class\one\animal.c
+	"Animal.h"
+	<stdio.h>
+	<string.h>
+
+1492915527 d:\project\cproject\test_class\one\animal.h
+	"class.h"
+
+1353037748 d:\project\cproject\test_class\one\class.h
+	<stdio.h>
+
+1492915536 source:d:\project\cproject\test_class\one\circle.c
+	"Circle.h"
+
+1492915545 d:\project\cproject\test_class\one\circle.h
+	"Point.h"
+
+1492915554 d:\project\cproject\test_class\one\point.h
+	"Shape.h"
+
+1492915563 d:\project\cproject\test_class\one\shape.h
+	"VirBaseClass.h"
+
+1492915572 d:\project\cproject\test_class\one\virbaseclass.h
+	"class.h"
+
+1492915593 source:d:\project\cproject\test_class\one\main.c
+	<stdio.h>
+	"class.h"
+	"Animal.h"
+	"Circle.h"
+
+1492915603 source:d:\project\cproject\test_class\one\point.c
+	"Point.h"
+
+1492915614 source:d:\project\cproject\test_class\one\shape.c
+	"Shape.h"
+
+1492915627 source:d:\project\cproject\test_class\one\virbaseclass.c
+	"VirBaseClass.h"
+
+1492915635 source:d:\project\cproject\test_class\point.c
+	"Point.h"
+
+1492915645 source:d:\project\cproject\test_class\shape.c
+	"Shape.h"
+
+1492915654 source:d:\project\cproject\test_class\three\circle.c
+	"Circle.h"
+
+1492915666 d:\project\cproject\test_class\three\circle.h
+	"Point.h"
+
+1492915675 d:\project\cproject\test_class\three\point.h
+	"Shape.h"
+
+1492915686 d:\project\cproject\test_class\three\shape.h
+	"IMethod.h"
+
+1492915695 d:\project\cproject\test_class\three\imethod.h
+	"class.h"
+
+1353058664 d:\project\cproject\test_class\three\class.h
+	<stdio.h>
+
+1492915705 source:d:\project\cproject\test_class\three\imethod.c
+	"IMethod.h"
+
+1492915720 source:d:\project\cproject\test_class\three\main.c
+	<stdio.h>
+	"Circle.h"
+
+1492915731 source:d:\project\cproject\test_class\three\point.c
+	"Point.h"
+
+1492915739 source:d:\project\cproject\test_class\three\shape.c
+	"Shape.h"
+
+1492915746 source:d:\project\cproject\test_class\two\circle.c
+	"Circle.h"
+
+1492915766 d:\project\cproject\test_class\two\circle.h
+	"Point.h"
+
+1492915778 d:\project\cproject\test_class\two\point.h
+	"Shape.h"
+
+1492915792 d:\project\cproject\test_class\two\shape.h
+	"IMethod.h"
+
+1492915803 d:\project\cproject\test_class\two\imethod.h
+	"class.h"
+
+1353050962 d:\project\cproject\test_class\two\class.h
+	<stdio.h>
+
+1492915814 source:d:\project\cproject\test_class\two\imethod.c
+	"IMethod.h"
+
+1492915822 source:d:\project\cproject\test_class\two\main.c
+	<stdio.h>
+	"Circle.h"
+

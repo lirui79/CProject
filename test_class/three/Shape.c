@@ -1,16 +1,16 @@
-/////////////////////////////////////////////////////  
-// 
+/////////////////////////////////////////////////////
+//
 //   use  test c  define class like c++  Shape class
-// 
+//
 //   author :  lirui
 //
 //   history :  2012-11-16 create
-// 
+//
 //
 /////////////////////////////////////////////
 
 
-#include <Shape.h>
+#include "Shape.h"
 
 
 
@@ -35,7 +35,7 @@
 	{ \
 		return _this ;	\
 	}
-	
+
 	CLASS_METHOD_IMPLEMENT(Shape)(Shape) ;
 
 //////////////////////////////////////////////////
@@ -46,7 +46,7 @@ ABSTRACT_CONSTRUCT(Shape)
 	SET_METHOD(Position , CON_CAT(Shape , Position)) ;
 	SET_METHOD(Area , CON_CAT(Shape , Area)) ;
 	SET_METHOD(GetSubClassPtr , CON_CAT(Shape , GetSubClassPtr)) ;
-	SET_METHOD(GetClassName , CON_CAT(Shape , GetClassName)) ;	
+	SET_METHOD(GetClassName , CON_CAT(Shape , GetClassName)) ;
 }
 
 ABSTRACT_DESTRUCT(Shape)

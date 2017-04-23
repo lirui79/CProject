@@ -1,15 +1,15 @@
-/////////////////////////////////////////////////////  
-// 
+/////////////////////////////////////////////////////
+//
 //   use  test c  define class like c++  Point class
-// 
+//
 //   author :  lirui
 //
 //   history :  2012-11-16 create
-// 
+//
 //
 /////////////////////////////////////////////
 
-#include <Point.h>
+#include "Point.h"
 
 
 #define   CLASS_METHOD_IMPLEMENT_Point(TYPE)                      \
@@ -40,8 +40,8 @@
 	void  CON_CAT(TYPE , Position)(TYPE *_this) \
 	{ \
 		printf("%s class[%s] Position   x[%f] y[%f]!\n" , #TYPE , _this->GetClassName() , _this->x , _this->y) ; \
-	} 
-			
+	}
+
 
 CLASS_METHOD_IMPLEMENT(Point)(Point) ;
 
@@ -49,15 +49,15 @@ CLASS_METHOD_IMPLEMENT(Point)(Point) ;
 
 CONSTRUCT(Point)
 {
-	Construct(Shape , _this) ;	
+	Construct(Shape , _this) ;
 	_this->x = 0.0 ;
 	_this->y = 0.0 ;
-	
+
 	SET_METHOD(Delete , CON_CAT(Point , Delete)) ;
-	
+
 	SET_METHOD(Position , CON_CAT(Point , Position)) ;
 	SET_METHOD(GetSubClassPtr , CON_CAT(Point , GetSubClassPtr)) ;
-	SET_METHOD(GetClassName , CON_CAT(Point , GetClassName)) ;	
+	SET_METHOD(GetClassName , CON_CAT(Point , GetClassName)) ;
 	SET_METHOD(Move , CON_CAT(Point , Move)) ;
 	SET_METHOD(Set , CON_CAT(Point , Set)) ;
 }
