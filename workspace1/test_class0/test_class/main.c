@@ -71,6 +71,7 @@ int main(int argc, char **argv)
 	size_t sz1 = vInt1.size(&vInt1) ;
 	vInt1.push_front(&vInt1 , 0x30) ;
 	vInt1.push_front(&vInt1 , 0x40) ;
+	vInt1.push_front(&vInt1 , 0x60) ;
 	size_t sz2 = vInt1.size(&vInt1) ;
 	vInt1.copy(&vInt1 , vInt2) ;
 
