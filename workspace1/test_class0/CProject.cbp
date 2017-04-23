@@ -31,6 +31,27 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="test_class/Circle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_class/Circle.h" />
+		<Unit filename="test_class/IMethod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_class/IMethod.h" />
+		<Unit filename="test_class/Point.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_class/Point.h" />
+		<Unit filename="test_class/Shape.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_class/Shape.h" />
+		<Unit filename="test_class/class.h" />
+		<Unit filename="test_class/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="test_class/vector.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
