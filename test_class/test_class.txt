@@ -1,0 +1,1 @@
+./Debug/main.o ./Debug/Shape.o ./Debug/Point.o ./Debug/Circle.o ./Debug/IMethod.o  
