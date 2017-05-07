@@ -65,7 +65,7 @@ int main(int argc, char **argv)
 	VECTOR(int , vInt1) ;
 	vector(int) *vInt2 = vector_New(int) ;
 
-	vInt1.assign(&vInt1 , 10 , 0x10) ;
+	vInt1.assign(&vInt1 , 20 , 0x10) ;
 	size_t sz = vInt1.size(&vInt1) ;
 	vInt1.push_back(&vInt1 , 0x20) ;
 	size_t sz1 = vInt1.size(&vInt1) ;
