@@ -75,6 +75,7 @@ int main(int argc, char **argv)
 	vInt1.copy(&vInt1 , vInt2) ;
 
 	vInt1.push_back(&vInt1 , 0x80) ;
+	vInt1.push_back(&vInt1 , 0x100) ;
 
 	printf("vInt1.size : %d  vInt2.size : %d \n" , sz1 , sz2) ;
 
